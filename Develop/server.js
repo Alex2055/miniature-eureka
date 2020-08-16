@@ -4,7 +4,7 @@ const app = express()
 const PORT = 3001;
 const path = require('path')
 const { v4: uuidv4 } = require('uuid');
-const bodyParser = require('body-parser')
+
 
 
 app.use(express.urlencoded({ extended: true }));
